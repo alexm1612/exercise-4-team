@@ -5,7 +5,7 @@ import ChatUI from '../comps/Chat';
 export default function Home() {
   return (
     <div id="main" className={styles.main}>
-      <ChatUI />
+      
     </div>
   )
 }
