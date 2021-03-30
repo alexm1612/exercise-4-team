@@ -14,6 +14,7 @@
 .photo {
     width: 250px;
     height: 250px;
+    opacity: 50%;
 }
 
 .span {
@@ -35,12 +36,11 @@
 
 .text {
     z-index: -1;
+    border: 2px solid red;
     position: absolute;
-    color: black;
+    color: red;
     max-width: 250px;
     max-height: 250px;
     overflow: hidden;
     top: 2px;
-    text-align: center;
-    padding: 2px;
 }

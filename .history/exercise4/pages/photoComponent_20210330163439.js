@@ -7,7 +7,7 @@ export default function Photo({ url = "http://placekitten.com/250/250", text = "
             <p className={style.text}>{text}</p>
             <span className={style.span}>
                 <h3 className={style.title}>{catName}</h3>
-                <input className={style.button} type="button" value="About Me" onInput="HandleClick"></input>
+                <input className={style.button} type="button" value="About Me" onInput="HandleClick()"></input>
             </span>
         </div>
     )
