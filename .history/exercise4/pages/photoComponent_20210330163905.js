@@ -7,9 +7,16 @@ export default function Photo({ url = "http://placekitten.com/250/250", text = "
             <p className={style.text}>{text}</p>
             <span className={style.span}>
                 <h3 className={style.title}>{catName}</h3>
-                <input className={style.button} type="button" value="About Me" ></input>
+                <input className={style.button} type="button" value="About Me" onClick="HandleClick()"></input>
             </span>
         </div>
     )
+    function HandleClick() {
+        if (img.style.opacity == "100%") {
+            img.style.opacity = "20%"
+        } else {
+            img.style.opacity = "100%"
+        }
+    }
 }
 
