@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Photo from './PhotoComponent'
-{/* <Photo /> */ }
 
 export default function Home() {
   return (
@@ -9,7 +8,6 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-
       </Head>
 
       <main className={styles.main}>
@@ -18,7 +16,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{' '} we connected?
           <code className={styles.code}>pages/index.js</code>
         </p>
 

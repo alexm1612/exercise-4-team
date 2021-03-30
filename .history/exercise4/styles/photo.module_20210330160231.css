@@ -1,0 +1,22 @@
+.container {
+    width: 300px;
+    height: 360px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 5px #222222;
+    background-color: white;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+}
+
+.span {
+    width: 84%;
+    background-color: red;
+    justify-content: center;
+}
