@@ -1,0 +1,48 @@
+.container {
+    width: 300px;
+    height: 360px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 5px #222222;
+    background-color: white;
+    z-index: -2;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+}
+
+.span {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    font-size: 24px;
+    z-index: 1;
+    background-color: rgb(43, 28, 206);
+}
+
+.title {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.text {
+    z-index: -1;
+    position: absolute;
+    color: black;
+    max-width: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    top: 2px;
+    text-align: center;
+    padding: 2px;
+}
