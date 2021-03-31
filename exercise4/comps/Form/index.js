@@ -19,7 +19,7 @@ function FormUI({
     textAlign="center",
     fontStyleItalic="italic",
 }){
-    return
+    return(
         <div style={{
         width:mainWidth,
         height:mainHeight,
@@ -101,6 +101,7 @@ function FormUI({
             border:border,
             }}/>
         </div>
+    )
 }
 
 export default FormUI;
