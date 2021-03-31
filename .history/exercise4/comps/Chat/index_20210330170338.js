@@ -101,7 +101,8 @@ return <div style={{
           height:messageHeight,
           borderRadius:messageBorderRadius, 
           backgroundColor:backgroundColorContent, 
-          marginRight:marginRight
+          marginRight:marginRight,
+          
           }}><p style={{
             paddingLeft:paddingLeft
           }}>Hi, how are you?</p></div>

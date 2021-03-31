@@ -88,7 +88,7 @@ return <div style={{
           alignItems:alignItems
           }}><p style={{
             paddingLeft:paddingLeft
-          }}>Hello there</p></div>
+          }}>Hello</p></div>
       </div>
       <div style={{
         display:display,
@@ -101,10 +101,11 @@ return <div style={{
           height:messageHeight,
           borderRadius:messageBorderRadius, 
           backgroundColor:backgroundColorContent, 
-          marginRight:marginRight
+          marginRight:marginRight,
+          alignItems:alignItems
           }}><p style={{
             paddingLeft:paddingLeft
-          }}>Hi, how are you?</p></div>
+          }}>Hello</p></div>
         <div style={{
           width:avatarWidth, 
           height:avatarHeight, 

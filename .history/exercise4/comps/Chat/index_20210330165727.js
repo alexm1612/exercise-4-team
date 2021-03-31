@@ -1,7 +1,7 @@
 function ChatUI({
   mainWidth=300,
   url1="https://placekeanu.com/100/100",
-  url2="https://placekeanu.com/200/100",
+  url2="https://placekeanu.com/200/100"
   display="flex",
   flexDirectionRow="row",
   flexDirectionCol="column",
@@ -78,17 +78,14 @@ return <div style={{
               height:avatarHeight,
               objectFit:"cover",
               borderRadius:messageBorderRadius, 
-            }} src={url1}/>
+            }} src={url}/>
           </div>
         <div style={{
           width:messageWidth, 
           height:messageHeight, 
           borderRadius:messageBorderRadius,
-          backgroundColor:backgroundColorContent,
-          alignItems:alignItems
-          }}><p style={{
-            paddingLeft:paddingLeft
-          }}>Hello there</p></div>
+          backgroundColor:backgroundColorContent
+          }}></div>
       </div>
       <div style={{
         display:display,
@@ -102,9 +99,7 @@ return <div style={{
           borderRadius:messageBorderRadius, 
           backgroundColor:backgroundColorContent, 
           marginRight:marginRight
-          }}><p style={{
-            paddingLeft:paddingLeft
-          }}>Hi, how are you?</p></div>
+          }}></div>
         <div style={{
           width:avatarWidth, 
           height:avatarHeight, 
@@ -117,7 +112,7 @@ return <div style={{
               height:avatarHeight,
               objectFit:"cover",
               borderRadius:messageBorderRadius, 
-              }} src={url2}/>
+              }} src={url}/>
           </div>
       </div>
     </span>
