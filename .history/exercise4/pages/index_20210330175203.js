@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div id="main" className={styles.container}>
       <ChatUI />
-      <PhotoUI />
+      <Photo />
     </div>
   )
 }
