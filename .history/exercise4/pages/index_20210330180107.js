@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css';
 
 import ChatUI from '../comps/Chat';
-import PhotoUI from '../comps/photo/index';
+import PhotoUI from '../comps/photo/photoComponent';
 
 export default function Home() {
   return (
