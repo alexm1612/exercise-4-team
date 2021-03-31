@@ -1,0 +1,32 @@
+.container {
+    width: 300px;
+    height: 370px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 5px #222222;
+    background-color: white;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+}
+
+.span {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.button {
+    font-size: 24px;
+}
+
+.title {
+    font-size: 18px;
+}
