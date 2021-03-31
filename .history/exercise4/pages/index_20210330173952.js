@@ -4,7 +4,7 @@ import Photo from './PhotoComponent';
 
 export default function Home() {
   return (
-    <div id="main" className={styles.container}>
+    <div id="main" className={styles.main}>
       <ChatUI />
       <Photo />
 
